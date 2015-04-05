@@ -1,6 +1,46 @@
 #archeeve{
+  * {
+    box-sizing: border-box;
+  }
+  section{
+    width: 100%;
+    padding: 0;
+    display: table;
+    margin: 0;
+    max-width: none;
+    height: 100vh;
+  }
   h1 {
-    color: blue;
+    font-size: 2.6rem;
+    line-height: 3.6rem;
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-weight: 100;
+    color: #ffffff
+  }
+  #first{
+    //display:inline-block;
+    //position:absolute;
+    background-image: url('/assets/a/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    //width: 100%;
+    //height: 100%;
+    height: 90vh;
+    margin: 0px;
+  }
+  #mid-layer{
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 25px 0 0 0;
+    height: 100%;
+  }
+  #logo, #centerbox, #award {
+    display: inline-block;
+    //height: 400px;
+  }
+  #top-layer ul li {
+    display: inline;
   }
 }
